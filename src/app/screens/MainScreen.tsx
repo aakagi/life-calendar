@@ -1,4 +1,4 @@
-import { LifeCalendar } from '../components/life-calendar'
+import { LifeCalendar } from '@/components/life-calendar'
 
 import styles from './MainScreen.module.css'
 
