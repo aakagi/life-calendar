@@ -1,0 +1,15 @@
+{
+  "editor.tabSize": 2,
+  "explorer.confirmDelete": false,
+  "eslint.format.enable": true,
+  "eslint.alwaysShowStatus": true,
+  "eslint.validate": ["javascript", "javascriptreact", "typescript", "typescriptreact"],
+  "editor.formatOnSave": true,
+  "eslint.run": "onSave",
+  "typescript.autoClosingTags": false,
+  "auto-close-tag.disableOnLanguage": ["typescript"], // Prevents annoying jsx completion, should find a better solution because it still happens in jsx/tsx files
+  "files.exclude": {
+    "**/node_modules": true,
+    "**/.git": true
+  }
+}

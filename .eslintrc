@@ -1,0 +1,37 @@
+{
+  "env": {
+    "browser": true,
+    "es6": true,
+    "node": true
+  },
+  "settings": {
+    "react": {
+      "version": "detect"
+    }
+  },
+  // Standard typescript parser
+  "parser": "@typescript-eslint/parser",
+  "extends": [
+    // Enable recommended typescript linter rules
+    "plugin:@typescript-eslint/recommended",
+    // Disables/cleans all other code formatting rules https://github.com/prettier/eslint-config-prettier
+    "prettier"
+  ],
+  "plugins": [
+    // Is this still needed? I previously used this to require importing react but maybe not anymore?
+    "react",
+    // Allows prettier in "rules"
+    "prettier"
+  ],
+  "rules": {
+    // Enable prettier
+    "prettier/prettier": ["error"],
+    // Required for setting `@typescript-eslint/no-unused-vars` property below https://github.com/typescript-eslint/typescript-eslint/blob/main/packages/eslint-plugin/docs/rules/no-unused-vars.md
+    "no-unused-vars": "off",
+    // Allow unused variables that begin with `_` for better DX
+    "@typescript-eslint/no-unused-vars": [
+      "warn",
+      { "argsIgnorePattern": "^_", "varsIgnorePattern": "^_" }
+    ]
+  }
+}
