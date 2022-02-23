@@ -1,5 +1,5 @@
 import Head from 'next/head'
-import MainScreen from 'screens/MainScreen'
+import { MainScreen } from 'screens'
 
 export default function () {
   return (
