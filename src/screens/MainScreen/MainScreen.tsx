@@ -10,7 +10,7 @@ type LayoutProps = {
 function MainScreenLayout(props: LayoutProps) {
   const { sideBar, calendar } = props
   return (
-    <div>
+    <div className="bg-red-500">
       <div>{sideBar}</div>
       <div>{calendar}</div>
     </div>
