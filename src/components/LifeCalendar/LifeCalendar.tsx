@@ -2,7 +2,7 @@ import Script from 'next/script'
 
 export function LifeCalendar() {
   return (
-    <>
+    <div>
       <p>Google Calendar API Quickstart</p>
 
       <button id="authorize_button" style={{ display: 'none' }}>
@@ -149,6 +149,6 @@ export function LifeCalendar() {
           handleClientLoad()
         }}
       />
-    </>
+    </div>
   )
 }
