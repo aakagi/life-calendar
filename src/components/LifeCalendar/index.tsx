@@ -1,1 +1,0 @@
-export { LifeCalendar } from './LifeCalendar'

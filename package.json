@@ -1,6 +1,6 @@
 {
   "name": "life-calendar",
-  "version": "0.1.0",
+  "version": "1.0.0",
   "private": true,
   "scripts": {
     "dev": "next dev",
@@ -9,30 +9,40 @@
     "lint": "eslint src"
   },
   "dependencies": {
+    "apollo-server-core": "^3.6.6",
+    "apollo-server-micro": "^3.6.6",
+    "classnames": "^2.3.1",
+    "cors": "^2.8.5",
     "date-fns": "^2.28.0",
     "dotenv": "^16.0.0",
-    "jotai": "^1.6.0",
-    "next": "12.1.0",
+    "graphql-request": "^4.2.0",
+    "jotai": "^1.6.1",
+    "next": "12.1.1",
+    "optics-ts": "^2.3.0",
     "react": "17.0.2",
-    "react-dom": "17.0.2"
+    "react-dom": "17.0.2",
+    "react-query": "^3.34.19",
+    "tsdav": "^2.0.2",
+    "zustand": "^3.7.1"
   },
   "devDependencies": {
+    "@types/cors": "^2.8.12",
     "@types/gapi": "^0.0.41",
     "@types/gapi.auth2": "^0.0.56",
     "@types/gapi.client.calendar": "^3.0.10",
-    "@types/node": "17.0.19",
-    "@types/react": "17.0.39",
-    "@typescript-eslint/eslint-plugin": "^5.12.0",
-    "@typescript-eslint/parser": "^5.12.0",
-    "autoprefixer": "^10.4.2",
-    "eslint": "8.9.0",
-    "eslint-config-next": "12.1.0",
-    "eslint-config-prettier": "^8.4.0",
+    "@types/node": "17.0.23",
+    "@types/react": "17.0.43",
+    "@typescript-eslint/eslint-plugin": "^5.16.0",
+    "@typescript-eslint/parser": "^5.16.0",
+    "autoprefixer": "^10.4.4",
+    "eslint": "8.12.0",
+    "eslint-config-next": "12.1.1",
+    "eslint-config-prettier": "^8.5.0",
     "eslint-plugin-prettier": "^4.0.0",
-    "eslint-plugin-react": "^7.28.0",
-    "postcss": "^8.4.6",
-    "prettier": "^2.5.1",
+    "eslint-plugin-react": "^7.29.4",
+    "postcss": "^8.4.12",
+    "prettier": "^2.6.1",
     "tailwindcss": "^3.0.23",
-    "typescript": "4.5.5"
+    "typescript": "4.6.3"
   }
 }
